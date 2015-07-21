@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <ripple android:color="@color/cyan_primary_dark">
+            <item android:drawable="@drawable/add_skill_button_profil_pressed" />
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/cyan_primary" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="?android:colorAccent" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>
+
+
+<!-- From: file:/C:/Users/PBA3360/Documents/Stage2015/TalentMapLite/Android/talentmap/src/main/res/drawable-v21/add_skill_button_profil.xml -->

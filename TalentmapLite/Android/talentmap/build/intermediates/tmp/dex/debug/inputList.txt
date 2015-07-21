@@ -1,0 +1,13 @@
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\coverage-instrumented-classes\debug
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ad89e47ba2d66aae51ce3255cbfa410d33731f87.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jackson-annotations-2.5.4-d116556f0fd70373a89d1804b17e0900fcea0eb7.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\httpmime-4.3-ee188101fdd4a6390d52e7871e6b35b1928cd287.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\library-2.4.0-3999a454005d6e85efded358e62b43b88b4a1933.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-0f1baf4af17e2db8fa4d1dff18d47594874105a1.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-35f1210db528f54c17817c73afa3d0ec156e4434.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jackson-core-2.5.4-f43fbf251d1508c78423a25176c169438b50ffd7.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jacocoagent-651ca74ffac9b737aa3c0a6ecc26b74eb02bc0ca.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\httpclient-android-4.3.5.1-4845a326e1bddc93835b9eafe5d5bbe37f7b15b8.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\classes-c63ac3486e92efad28c9b9e6ae0d7151ada1eb7e.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\classes-bd78364626dfac77d0d36f368e12bc091cd574e1.jar
+C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jackson-databind-2.5.4-50534e61b08fa3b1e75e4edd0f8a115535c6c5b8.jar

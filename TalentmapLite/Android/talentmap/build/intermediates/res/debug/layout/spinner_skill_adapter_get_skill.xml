@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.viseo.talentmap.lite.CapitalizedTextView
+        android:id="@+id/autocompletion"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp" />
+
+
+</LinearLayout><!-- From: file:/C:/Users/PBA3360/Documents/Stage2015/TalentMapLite/Android/talentmap/src/main/res/layout/spinner_skill_adapter_get_skill.xml -->

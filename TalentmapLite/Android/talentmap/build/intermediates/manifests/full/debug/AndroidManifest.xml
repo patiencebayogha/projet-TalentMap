@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viseo.talentmap"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <!-- Required permission to use in-app billing and MMedia Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Include next permission if you want to allow UIL to cache images on SD card -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/favicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Activity -->
+        <activity
+            android:name="com.viseo.talentmap.login.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viseo.talentmap.lite.search.activity.SearchGetProfilUsersActivity"
+            android:label="@string/Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.viseo.talentmap.lite.search.activity.SearchFilterActivity"
+            android:label="@string/Filter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.viseo.talentmap.lite.MainActivity"
+            android:label="@string/Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.viseo.talentmap.createaccount.activity.AccountActivity"
+            android:label="@string/title_activity_New_Account"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.viseo.talentmap.createaccount.activity.ActivationActivity"
+            android:label="@string/title_activity_New_Account"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.viseo.talentmap.modifications_skills.activity.SkillsActivity"
+            android:label="@string/title_activity_Skills"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

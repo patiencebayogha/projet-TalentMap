@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/star_checked" android:state_selected="true" />
+    <item android:drawable="@drawable/star_unchecked" android:state_selected="false" />
+
+</selector><!-- From: file:/C:/Users/PBA3360/Documents/Stage2015/TalentMapLite/Android/talentmap/src/main/res/drawable-v21/star_button_states.xml -->

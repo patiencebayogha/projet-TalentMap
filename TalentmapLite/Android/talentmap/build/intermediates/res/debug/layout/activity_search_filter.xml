@@ -1,0 +1,349 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/grey_primary" />
+
+        <LinearLayout
+            android:id="@+id/activity_filter_category_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_primary"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/choix_categorie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Choisir une catégorie"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@android:color/white" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/white" />
+
+
+            <TextView
+                android:id="@+id/choix_competence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Choisir une compétence"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/activity_filter_expertises"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@android:color/white" />
+
+        </LinearLayout>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp">
+
+
+            <LinearLayout
+                android:id="@+id/activity_filter_ratingBar_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="33"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:orientation="horizontal"
+                android:paddingTop="2dp">
+
+                <TableRow
+                    android:id="@+id/tablerow_notion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.14"
+                        android:text="@string/activity_skills_Notions" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+
+                        android:src="@drawable/star_checked" />
+                </TableRow>
+
+            </LinearLayout>
+        </TableRow>
+
+
+        <LinearLayout
+            android:id="@+id/activity_filter_rating_bar_lvl_1_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp">
+
+            <TableRow
+                android:id="@+id/tablerow_bases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:text="@string/activity_skills_Bases" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star_button_states" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.14"
+                    android:src="@drawable/star_button_states" />
+            </TableRow>
+        </LinearLayout>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <LinearLayout
+                android:id="@+id/activity_filter_rating_bar_lvl_2_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="33"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TableRow
+                    android:id="@+id/tablerow_master"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.1"
+                        android:text="@string/activity_skills_mastery" />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/star_button_states" />
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/star_button_states" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/star_button_states" />
+                </TableRow>
+            </LinearLayout>
+        </TableRow>
+
+
+        <LinearLayout
+            android:id="@+id/activity_filter_rating_bar_lvl_3_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TableRow
+                android:id="@+id/tablerow_god_master"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:text="@string/activity_skills_good_mastery" />
+
+
+                <ImageView
+                    android:id="@+id/star_unchecked7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/star_button_states" />
+
+                <ImageView
+                    android:id="@+id/star_unchecked6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/star_button_states" />
+
+
+                <ImageView
+                    android:id="@+id/star_unchecked8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/star_button_states" />
+
+                <ImageView
+                    android:id="@+id/star_unchecked"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/star_button_states" />
+            </TableRow>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/activity_filter_rating_bar_lvl_4_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TableRow
+                android:id="@+id/tablerow_expert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+
+                <TextView
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/activity_skills_expert" />
+
+
+                <ImageView
+                    android:id="@+id/star_unchecked10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.14"
+                    android:src="@drawable/star_button_states" />
+
+                <ImageView
+                    android:id="@+id/star_unchecked11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.14"
+                    android:src="@drawable/star_button_states" />
+
+                <ImageView
+                    android:id="@+id/star_unchecked9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="0.14"
+                    android:src="@drawable/star_button_states" />
+
+                <ImageView
+                    android:id="@+id/star_unchecked12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.14"
+                    android:src="@drawable/star_button_states" />
+
+
+                <ImageView
+                    android:id="@+id/star_unchecked13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.14"
+                    android:src="@drawable/star_button_states" />
+
+            </TableRow>
+        </LinearLayout>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/activity_add_filter_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_filter_rating_bar_lvl_4_block"
+                android:layout_column="35"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/activity_filter_image_button_add"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end|bottom"
+                    android:layout_marginBottom="@dimen/add_button_margin"
+                    android:layout_marginEnd="@dimen/add_button_margin"
+                    android:background="@drawable/add_skill_button_profil"
+                    android:elevation="@dimen/elevation_low"
+                    android:src="@drawable/tick"
+                    tools:ignore="RtlCompat" />
+
+
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
+<!-- From: file:/C:/Users/PBA3360/Documents/Stage2015/TalentMapLite/Android/talentmap/src/main/res/layout/activity_search_filter.xml -->
