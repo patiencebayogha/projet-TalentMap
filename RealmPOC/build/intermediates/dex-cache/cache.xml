@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-651843654eafdb7978e60899eb51a2c76b1b1207.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-ad89e47ba2d66aae51ce3255cbfa410d33731f87.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\io.realm\realm-android\0.73.1\3d71534849c19a9b086bab110feba1d3ff752ce5\realm-android-0.73.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3d71534849c19a9b086bab110feba1d3ff752ce5">
+        <dex dex="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\realm-android-0.73.1-20d2583db2b4520eb4a031282acd4aadedbe69bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\classes-bcf58c43700ad1d30d482e1dfee12bcd733400bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\classes-88f84092197cd46f5ba81371bf88da257d655dd6.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.novedia.realmpoc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.novedia.realmpoc.DrawerActivity"
+            android:label="@string/title_activity_relation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activities.InsertNewPersonInDBActivity"
+            android:label="@string/title_activity_insert" />
+        <activity
+            android:name="activities.InsertNewBookInDBActivity"
+            android:label="@string/title_activity_insert" />
+        <activity
+            android:name="activities.AddBookToPersonActivity"
+            android:label="@string/title_activity_add_book" />
+        <activity
+            android:name="activities.SelectedBookForPersonActivity"
+            android:label="@string/title_activit_select_book" />
+    </application>
+
+</manifest>

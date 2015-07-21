@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/activity_insert_new_person_block_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:src="#AAA">
+
+
+        <com.example.novedia.realmpoc.CapitalizedTextViewActivity
+            android:id="@+id/name"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:text="@string/activity_insert_new_person_name"
+            android:textColor="@color/red_primary_dark" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_insert_new_person_block_age"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_insert_new_person_block_name"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingStart="10dp">
+
+        <com.example.novedia.realmpoc.CapitalizedTextViewActivity
+            android:id="@+id/age"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:text="@string/activity_insert_new_person_age"
+            android:textColor="@color/red_primary_dark" />
+
+        <EditText
+            android:id="@+id/edit_age"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_insert_new_person_block_age">
+    <Button
+        android:id="@+id/activity_insert_new_person_button_cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/btn_background"
+        android:textColor="@android:color/white"
+        android:text="Cancel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/activity_insert_new_person_button_send"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:textColor="@android:color/white"
+        android:text="@string/activity_insert_new_person_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/PBA3360/Documents/POC/RealmPOC/app/src/main/res/layout/activity_insert_new_person_in_db.xml -->

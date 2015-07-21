@@ -1,0 +1,6 @@
+C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\classes\release
+C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-ad89e47ba2d66aae51ce3255cbfa410d33731f87.jar
+C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-651843654eafdb7978e60899eb51a2c76b1b1207.jar
+C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\classes-bcf58c43700ad1d30d482e1dfee12bcd733400bf.jar
+C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\classes-88f84092197cd46f5ba81371bf88da257d655dd6.jar
+C:\Users\PBA3360\Documents\POC\RealmPOC\app\build\intermediates\pre-dexed\release\realm-android-0.73.1-20d2583db2b4520eb4a031282acd4aadedbe69bf.jar
