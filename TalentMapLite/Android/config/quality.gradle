@@ -1,0 +1,66 @@
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+apply plugin: 'sonar-runner'
+
+check.dependsOn 'checkstyle', 'pmd', 'sonarRunner'
+
+task checkstyle(type: Checkstyle) {
+    configFile file("${project.rootDir}/config/quality/checkstyle/checkstyle.xml")
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    classpath = files()
+}
+
+task findbugs(type: FindBugs) {
+    ignoreFailures = true
+    effort = "max"
+    reportLevel = "high"
+    excludeFilter = new File("${project.rootDir}/config/quality/findbugs/findbugs-filter.xml")
+    classes = files("$project.buildDir/intermediates/classes/")
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml {
+            destination "$project.buildDir/reports/findbugs/findbugs.xml"
+            xml.withMessages true
+        }
+    }
+
+    classpath = files()
+}
+
+task pmd(type: Pmd) {
+    ignoreFailures = true
+    ruleSets = ["java-basic", "java-braces", "java-strings", "java-unusedcode", "java-android", "java-comments", "java-codesize", "java-clone"]
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}
+
+sonarRunner {
+    sonarProperties {
+        property "sonar.host.url", "http://" +
+                "nsltsiv-ncipjava.smart-up.net:9000/"
+        property "sonar.jdbc.url", "jdbc:h2:tcp://localhost:9092/sonar"
+        property "sonar.jdbc.driverClassName", "org.h2.Driver"
+        property "sonar.jdbc.username", "sonar"
+        property "sonar.jdbc.password", "sonar"
+        property "sonar.branch", "gradle"
+        property "sonar.dynamicAnalysis", "reuseReports"
+        properties["sonar.sources"] = "$project.projectDir/src/main/java"
+        properties["sonar.tests"] = "$project.projectDir/src/androidTest/java"
+        property "sonar.pmd.reportsPath", "$project.buildDir/reports/pmd/"
+    }
+}

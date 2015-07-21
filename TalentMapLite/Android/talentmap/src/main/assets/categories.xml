@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE properties SYSTEM
+    "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="">Choisissez une categorie</entry>
+    <entry key="b68d759c-a640-11e4-89d3-123b93f75cba">Langues</entry>
+    <entry key="c09024a4-a640-11e4-89d3-123b93f75cba">Developpement</entry>
+    <entry key="d06bfe2a-a640-11e4-89d3-123b93f75cba">Management</entry>
+    <entry key="5801da44-a641-11e4-89d3-123b93f75cba">Bureautique</entry>
+    <entry key="6103760c-a641-11e4-89d3-123b93f75cba">Loisirs</entry>
+
+</properties>

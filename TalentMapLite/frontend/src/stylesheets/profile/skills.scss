@@ -1,0 +1,65 @@
+
+/* SKILLS */
+$skills-list_color_font: #4d4d4d;
+
+/* SKILL */
+$skill_color: #ffffff;
+$skill_color_border: #f2f2f2;
+$skill_color_title: #4d4d4d;
+$skill_font_size: 1.1em;
+
+$skill_remove_path: '../images/cross24.png';
+
+
+.skills-list {
+    color: $skills-list_color_font;
+    list-style-type: none;
+}
+
+.skill {
+    background-color: $skill_color;
+
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-bottom: 3px solid $skill_color_border;
+
+    @media (max-width: 450px) {
+        width: 95%;
+        padding-left : 5%;
+        padding-right: 0%;
+    }
+
+    @media (min-width: 450px) {
+        width: 200px;
+        margin-right: 5px;
+        padding-left: 10px;
+    }
+}
+
+
+.remove-skill {
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+    width: 24px;
+    height: 23px;
+    background-image: url($skill_remove_path);
+    vertical-align: top;
+    cursor : pointer;
+}
+
+.skill-title {
+    display: inline-block;
+
+    color: $skill_color_title;
+    font-weight: lighter;
+    font-size: $skill_font_size;
+    font-family: roboto-light;
+}
+
+

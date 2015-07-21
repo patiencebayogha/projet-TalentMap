@@ -1,0 +1,10 @@
+3 parts: android costumer---> web server---> database MongoDB
+         android costumer <--- web server<--- database MongoDB
+The client initiates the Requette the server with connection parameters
+(username and password).
+The server that captures this information and sends a request to the data
+base and recovers the information corresponding to the request
+
+Home page=> connect user viseo
+For test: login=> admin@viseo.com
+          password=>viseo

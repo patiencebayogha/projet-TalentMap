@@ -1,0 +1,38 @@
+<section class="connexion">
+
+    <!-- HEADER -->
+    <section class="reduced_header">
+
+        <!-- NAVBAR SECTION-->
+        <nav id="reduced_header-navbar">
+            <span>Connexion</span>
+        </nav>
+        <!-- END: NAVBAR SECTION-->
+
+    </section>
+
+
+
+
+    <!-- CONNEXION FORM -->
+    <form name="connexionForm" class="connexionForm" ng-submit="connexion()">
+
+
+        <!-- INPUTS -->
+        <div class="group">
+            <input class="connexionField" type="email" id="email" name="email" ng-model="email" ng-change="check()" placeholder="Email">
+            <span class="bar"></span>
+        </div>
+
+        <div class="group">
+            <input class="connexionField" type="password" id="password" name="password" ng-change="check()" ng-model="password" placeholder="Mot de passe">
+            <span class="bar"></span>
+        </div>
+
+        <button type="submit" class="button-connexion">Se connecter</button>
+
+        <span class="alert">{{alertMsg}}</span>
+
+    </form>
+
+</section>

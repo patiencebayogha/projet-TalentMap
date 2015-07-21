@@ -1,0 +1,63 @@
+
+<!-- HEADER -->
+<section id="header">
+
+    <!-- MENU -->
+    <div dropdown-menu></div>
+
+    <!-- END: NAVBAR SECTION-->
+
+    <!-- PROFILE IMG SECTION-->
+    <div id="header-profile-img" class="header-profile">
+        <img src="images/default_profile_img.png" ng-show="!user.photo.length" />
+        <img src="{{user.photo}}" ng-show="user.photo.length" />
+    </div>
+    <!-- END: PROFILE IMG SECTION-->
+
+    <!-- PROFILE NAME SECTION-->
+
+            <span  ng-hide="editingSurname" class="header-profile header-profile-name" ng-dblclick="editSurname()">
+                {{user.surname}}
+            </span>
+            <input ng-model="user.name" ng-show="editingName" ng-blur="doneEditingName()" class="input-name" autofocus>
+
+            <input ng-model="user.surname" ng-show="editingSurname" ng-blur="doneEditingSurname()" class="input-name" autofocus>
+            <span ng-hide="editingName" class="header-profile header-profile-name" ng-dblclick="editName()">
+                {{user.name}}
+            </span>
+
+
+    <!-- END: PROFILE NAME SECTION-->
+
+</section>
+
+<!-- CONTENT -->
+<section id="content">
+
+    <article ng-repeat="currCategory in categories">
+
+        <!-- CATEGORY -->
+        <h3 ng-show="currCategory.skills.length" class="category-title">{{currCategory.category}}</h3>
+        <ul class="skills-list">
+
+                 <!-- SKILL -->
+                <li ng-repeat="currSkill in currCategory.skills" class="skill">
+
+                    <span class="skill-title">{{currSkill.skill}}</span>
+
+                    <del ng-show="editable" class="remove-skill" ng-click="deleteSkill(currSkill.skill, $index, $parent.$index)"></del>
+
+                    <span>
+                        <div star-rating rating-value="currSkill.level" editable="editable" on-rating-selected="getSelectedRating(currSkill.skill, rating)"></div>
+                    </span>
+
+                </li>
+        </ul>
+
+    </article>
+
+    <!-- ADD SKILL BUTTON -->
+    <nav id="skill-add-button" ng-show="editable" ng-click="addSkill()"></nav>
+
+</section>
+

@@ -1,0 +1,86 @@
+
+
+<!-- HEADER -->
+<section class="reduced_header search">
+
+    <!-- MENU -->
+    <div dropdown-menu></div>
+
+    <!-- NAVBAR SECTION-->
+    <nav id="reduced_header-navbar">
+        <nav class="go-back" ng-click="back()"></nav>
+        <span>Recherche</span>
+    </nav>
+    <!-- END: NAVBAR SECTION-->
+
+</section>
+
+<!-- CONTENT -->
+<section class="search-content">
+
+    <!-- FILTERS LIST -->
+    <!-- <h3 class="category-title">Ajouter un filtre</h3> -->
+    <section id="search-filter-list">
+
+        <ul class="skills-list">
+
+            <li ng-repeat="filter in filters" class="search-filter">
+
+                <span class="skill-title" ng-click="updateFilter(filter)">{{filter.skillName}} - {{filter.level}} &#x2605</span>
+
+                <del class="remove-filter" ng-click="deleteFilter(filter.skillName)"></del>
+
+            </li>
+        </ul>
+
+        <!-- ADD FILTER BUTTON -->
+        <nav id="filter-add-button" ng-click="goFilter()"></nav>
+    </section>
+
+    <!-- RESULTS LIST -->
+    <!--<h3 class="category-title">Résultats</h3>-->
+    <section class="search-result-list">
+
+        <ul class="list-search">
+
+            <div ng-hide="results.length" class="search-result-count">
+                <!-- PROGRESS BAR -->
+                <progress id="avancement" value="{{loadingProgress}}" max="100"></progress>
+
+                Aucun résultat trouvé
+            </div>
+            <li ng-repeat="user in results" lazy-loading-directive>
+
+
+                <!-- RESULTS COUNTER -->
+                <div ng-show="$first" class="search-result-count">{{results.length}} résultat(s) trouvé(s)</div>
+
+                <!-- FILTERS LIST -->
+                <div class="user-search" ng-click="accessProfile(user.email)">
+
+                   <!-- PROFILE IMAGE -->
+                   <div class="user-img">
+                       <!-- CASE 1 : No profile image => Default image-->
+                        <img src="images/default_profile_img.png" ng-if="!user.photo.length" />
+
+                       <!-- CASE 2 : first 5 images => direct image -->
+                        <img src="{{user.photo}}" ng-if="user.photo.length > 0 && $index <= 5" />
+
+                       <!-- CASE 3 : next images => Lazy loading-->
+                        <img src="images/default_profile_img.png" class="b-lazy" real-src="{{user.photo}}" ng-show="user.photo.length > 0 && $index > 5" />
+                    </div>
+
+                    <!-- PROFILE NAME -->
+                    <div class="user-name">
+                        {{user.surname}} {{user.name}}
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+
+</section>
+

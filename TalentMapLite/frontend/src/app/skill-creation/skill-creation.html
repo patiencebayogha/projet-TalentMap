@@ -1,0 +1,60 @@
+
+    <!-- HEADER -->
+<section class="reduced_header">
+
+    <!-- MENU -->
+    <div dropdown-menu></div>
+
+    <!-- NAVBAR SECTION-->
+    <nav id="reduced_header-navbar">
+        <nav class="go-back" ng-click="back()"></nav>
+        <span>Compétence</span>
+    </nav>
+    <!-- END: NAVBAR SECTION-->
+
+</section>
+
+<!-- SKILL CREATION FORM -->
+<form name="skillCreationForm">
+
+
+    <!-- INPUTS -->
+    <section id="skill-creation_content">
+
+        <!-- CATEGORY SELECTOR -->
+        <article class="skill-creation_category">
+
+            <!--<h3 class="category-title">Choisir une catégorie</h3>-->
+            <select id="categoryUid" ng-model="skill.categoryUid" ng-change="categoryChange()" name="categoryUid" required>
+                <option  value="">Choisissez une catéorie</option>
+                <option ng-repeat="(key, value) in categories" value="{{key}}">{{value}}</option>
+            </select>
+
+        </article>
+
+        <!-- SKILL SELECTOR -->
+        <article class="skill-creation_category">
+
+            <!--<h3 class="category-title">Choisir une compétence</h3>-->
+            <input type="text" id="skillName" name="skillName" ng-model="skill.skillName" ng-change="check()" list="autoSkills" placeholder="Choisissez une compétence" required>
+
+            <datalist id="autoSkills">
+                <option data-ng-repeat="skill in autocompletion.skills" value="{{skill.name}}" />
+            </datalist>
+
+        </article>
+
+    </section>
+
+    <!-- LEVEL SELECTOR -->
+    <section>
+
+       <div level-selector selected="selected"></div>
+
+    </section>
+
+    <!-- APPLY BUTTON -->
+    <nav id="skill-creation_apply" ng-click="apply()"></nav>
+
+</form>
+
