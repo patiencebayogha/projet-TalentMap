@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_sign_in_image_download_block"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:background="@color/cyan_primary"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:weightSum="1">
+
+    <com.example.patiencebayogha.talentmaplitewithvolley.utils.CircleImageView
+        android:id="@+id/image_users"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:id="@+id/lastName_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_users"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_toRightOf="@+id/image_users"
+        android:background="@color/cyan_primary"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/name_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastName_users"
+        android:layout_marginEnd="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_toRightOf="@+id/image_users"
+        android:background="@color/cyan_primary"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+
+</FrameLayout>
+<!-- From: file:/C:/Users/PBA3360/Documents/Stage2015/TalentMapLiteVolley/TalentMapLiteWithVolley/app/src/main/res/layout/drawer_profil_header.xml -->

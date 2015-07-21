@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Profil other users Fragment-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_profil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:id="@+id/activity_sign_in_image_download_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/cyan_primary"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <com.example.patiencebayogha.talentmaplitewithvolley.utils.CircleImageView
+            android:id="@+id/image_users"
+            android:layout_width="80dp"
+            android:elevation="8dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop" />
+
+        <com.example.patiencebayogha.talentmaplitewithvolley.CapitalizedTextView
+            android:id="@+id/surname_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_users"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="70dp"
+            android:layout_toRightOf="@+id/image_users"
+            android:background="@color/cyan_primary"
+            android:inputType="textCapSentences"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textCursorDrawable="@null"
+            android:textSize="24dp" />
+
+        <com.example.patiencebayogha.talentmaplitewithvolley.CapitalizedTextView
+            android:id="@+id/name_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/surname_users"
+            android:layout_marginEnd="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="70dp"
+            android:layout_toRightOf="@+id/image_users"
+            android:background="@color/cyan_primary"
+            android:inputType="textCapSentences"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textCursorDrawable="@null"
+            android:textSize="24dp" />
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/swipedelete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_sign_in_image_download_block"
+        android:layout_weight="0.95"></ListView>
+
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/PBA3360/Documents/Stage2015/TalentMapLiteVolley/TalentMapLiteWithVolley/app/src/main/res/layout/search_get_profil_users_activity.xml -->
