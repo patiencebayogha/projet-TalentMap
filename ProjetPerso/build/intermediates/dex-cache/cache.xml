@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\classes-ab39dd7c10fb27c8db587d209b61416d596937e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\classes-c1b942fef872bc6d5e8cce3fcf707b42376b33db.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-cc4f9f076e6734337a02a5b10bab0f4d06581619.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\glide-3.6.0-346a56f387ca1ff33d6b55821213923aaa8490eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-d09f64160595996878fe51d5b0256aed25d93b1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\classes-6e086740a75ab4d19243163f9ad39c9a671473da.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\classes-f02c279f75b0a341efb2c7b6cc2dc752d2d21050.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-ccb905c8252836682d6f8e4fc126eeb20eeaf9a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\classes-12bd2b977cb4be6f3fa79382290a543464736bce.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\ProjetPerso\app\build\intermediates\pre-dexed\debug\classes-8c4e5ffd87a521e129a15d7374c324cecd8c72e2.jar" />
+    </item>
+
+</items>

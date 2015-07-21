@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="2dp"
+        android:color="@color/cyan_primary" />
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+    <solid android:color="@color/cyan_primary" />
+
+</shape>
+
+
+<!-- From: file:/C:/Users/PBA3360/Documents/projet-TalentMap/CouchbaseTML/ProjetCouchbase/app/src/main/res/drawable/rectangle_corners_text_filter.xml -->

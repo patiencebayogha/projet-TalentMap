@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.couchbase.lite\couchbase-lite-java-core\1.0.4\4a360091f88ddbfa5063af98e43472be61e511e1\couchbase-lite-java-core-1.0.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a360091f88ddbfa5063af98e43472be61e511e1">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\couchbase-lite-java-core-1.0.4-f9db5894f77d6a111cfe6c7b8540c4fcff85e8e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-mapper-asl\1.9.2\95400a7922ce75383866eb72f6ef4a7897923945\jackson-mapper-asl-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95400a7922ce75383866eb72f6ef4a7897923945">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\jackson-mapper-asl-1.9.2-96cecfe04c35b3190ed1058a6bc5e7e447cda4ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.github.oxo42\stateless4j\2.4.0\128aca4ace585f0b42faa739d0b968a154debb7a\stateless4j-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="128aca4ace585f0b42faa739d0b968a154debb7a">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\stateless4j-2.4.0-e4f430320db5fa7d05a04152fd964ea125c5d453.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-d09f64160595996878fe51d5b0256aed25d93b1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-468ed81e6024a367bf8046d3b8992c3f2fa47c95.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\classes-71f9f214ef87f04133e3a108863cef94bce3b971.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-core-asl\1.9.2\8493982bba1727106d767034bd0d8e77bc1931a9\jackson-core-asl-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8493982bba1727106d767034bd0d8e77bc1931a9">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\jackson-core-asl-1.9.2-871ce5ec20adc5eb00f7c1d678ee6a178e533c5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\exploded-aar\com.couchbase.lite\couchbase-lite-android\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="445253625ce247d2aab409baee78aa222b37e0e4">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\classes-88cb99e950432dcc05a2e55b8f118d7b71e131bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\PBA3360\Documents\projet-TalentMap\couchebase\Couchebase\app\build\intermediates\pre-dexed\debug\classes-682a968c5e3f649983828f53a7d011a466a5e441.jar" />
+    </item>
+
+</items>

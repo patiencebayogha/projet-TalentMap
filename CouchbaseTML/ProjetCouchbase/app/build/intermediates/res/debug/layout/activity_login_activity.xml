@@ -1,0 +1,165 @@
+<!-- Layout for that connect users to application -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_primary"
+    android:fillViewport="false"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/cyan_primary"
+        android:gravity="center"
+        android:text="Connexion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white" />
+
+    <!-- TODO : remove login/password -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/activity_new_login_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_new_login_email"
+                android:layout_gravity="center"
+                android:textColor="@color/primaryText" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/login_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/activity_new_login_email"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/primaryText"
+                    android:textColorHint="@color/secondary_text"
+                    android:theme="@style/SampleTheme" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_new_password_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_new_login_block"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_new_login_password"
+                android:layout_gravity="center"
+                android:textColor="@color/primaryText" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/activity_new_login_password"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Mot de passe"
+                    android:inputType="textPassword"
+                    android:textColor="@color/primaryText"
+                    android:textColorHint="@color/secondary_text"
+                    android:theme="@style/SampleTheme" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_new_login_button_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_new_password_block"
+            android:layout_margin="12dp"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/activity_new_login_connect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:text="@string/activity_new_login_connect"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_new_login_button_create_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_new_login_button_connect"
+            android:layout_margin="12dp"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/activity_new_login_create_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:text="@string/activity_new_login_create_account"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/activity_new_login_remember_me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/activity_new_login_button_create_account"
+            android:layout_alignStart="@+id/activity_new_login_button_create_account"
+            android:layout_alignTop="@+id/activity_new_login_button_create_account"
+            android:checked="false"
+            android:paddingTop="4dp"
+            android:text="@string/activity_new_login_remember_me"
+            android:textColor="@android:color/black"
+            android:theme="@style/SampleTheme" />
+
+        <com.example.pba3360.projetcouchbase.CapitalizedTextView
+            android:id="@+id/iferror"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/activity_new_login_button_connect"
+            android:layout_alignStart="@+id/activity_new_login_button_connect"
+            android:layout_below="@+id/activity_new_password_block"
+            android:paddingRight="20dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16dp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/PBA3360/Documents/projet-TalentMap/CouchbaseTML/ProjetCouchbase/app/src/main/res/layout/activity_login_activity.xml -->
