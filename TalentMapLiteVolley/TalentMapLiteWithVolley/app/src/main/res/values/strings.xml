@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Talent Map Volley</string>
+    <string name="title_activity_Sign_In">Se Connecter</string>
+    <string name="title_activity_New_Account">Nouvel utilisateur</string>
+    <string name="title_activity_Skills">Ajouter une compétence</string>
+
+    <!-- New Account Activity -->
+    <string name="activity_new_account_name_label">Nom</string>
+    <string name="activity_new_account_lastname_label">Prénom</string>
+    <string name="activity_new_account_email_label">Email</string>
+    <string name="activity_new_account_password_label">Mot de passe</string>
+    <string name="activity_new_account_confirm_password_label">Confirmer mot de passe</string>
+    <string name="activity_new_account_condition_box">J\'accepte les conditions</string>
+    <string name="activity_new_account_next_step_button">S\'inscrire</string>
+    <string name="activity_new_account_cancel">Annuler</string>
+    <string name="activity_new_account_lastname">surname</string>
+    <string name="activity_new_account_email">emailviseo</string>
+    <string name="activity_new_account_password">password</string>
+    <string name="activity_new_account_confirm_password">confirmpassword</string>
+
+    <!-- Login Activity -->
+    <string name="activity_new_login_email">E-mail</string>
+    <string name="activity_new_login_password">Mot de passe</string>
+    <string name="activity_new_login_remember_me">Rester connecté(e)?</string>
+    <string name="activity_new_login_create_account">S\'inscrire</string>
+    <string name="activity_new_login_connect">Se connecter</string>
+
+    <!-- SignIn Activity -->
+    <string name="activity_sign_in_download_button">telecharger une image</string>
+    <string name="activity_sign_in_add_skill">ajouter Compétences</string>
+    <string name="activity_sign_in_lastname">Prénom</string>
+    <string name="activity_sign_in_name">Nom</string>
+    <string name="activity_sign_in_skills">Compétences</string>
+    <string name="activity_sign_in_download_image">télécharger une image</string>
+
+    <!-- Skills ACtivity -->
+
+    <string name="activity_skills_choose_expertise">Choisissez une compétence</string>
+    <string name="activity_skills_Notions">Notions</string>
+    <string name="activity_skills_Bases">Bases</string>
+    <string name="activity_skills_mastery">Maîtrise</string>
+    <string name="activity_skills_good_mastery">Bonne maîtrise</string>
+    <string name="activity_skills_expert">Expert</string>
+    <string name="activity_skills_search">Recherche</string>
+    <string name="menu_talentmap">Mon Profil</string>
+    <string name="menu_talentmap_recherche">Recherche</string>
+    <string name="profil_fragment_profil">Profil</string>
+    <string name="search_fragment_search">Recherche</string>
+    <string name="com.viseo.lite.MainActivity">Menu</string>
+
+
+    <!--MainActivity -->
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action">Déconnexion</string>
+    <string-array name="title_array">
+        <item>Profil</item>
+        <item>Recherche</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="create_confirm_activation_text">Votre compte a été créé mais n\'est pas encore actif. Un email d\'activation vous a été envoyé.</string>
+    <string name="Filter">Filtre</string>
+    <string name="Search">Recherche</string>
+    <string name="Menu">Menu</string>
+    <string name="Name">Nom</string>
+    <string name="Surname">Prénom</string>
+    <string name="action_example">Test</string>
+    <string name="title_activity_MainActivity">Menu </string>
+
+
+
+    <!-- Titles -->
+    <string name="title_activity_SearchGetProfilUsersActivity">Profil </string>
+    <string name="title_activity_SearchFilterActivity">Filtre </string>
+    <string name="title_activity_SkillsActivity">Compétences </string>
+    <string name="title_activity_ActivationActivity">Activation</string>
+    <string name="help">Aide</string>
+    <string name="option">Choisir une catégorie</string>
+</resources>

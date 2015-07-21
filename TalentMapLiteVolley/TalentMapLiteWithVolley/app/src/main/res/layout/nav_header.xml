@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/cyan_primary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:alpha="0.8"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <com.example.patiencebayogha.talentmaplitewithvolley.utils.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:elevation="8dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/image_header"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <com.example.patiencebayogha.talentmaplitewithvolley.CapitalizedTextView
+        android:id="@+id/lastnameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_below="@+id/nameUser"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@+id/profile_image" />
+
+    <com.example.patiencebayogha.talentmaplitewithvolley.CapitalizedTextView
+        android:id="@+id/nameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignTop="@+id/profile_image"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@+id/profile_image" />
+</RelativeLayout>
