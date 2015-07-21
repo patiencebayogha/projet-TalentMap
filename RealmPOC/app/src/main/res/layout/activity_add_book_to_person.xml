@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            android:text="Add a Book to one person"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_insert_new_object_book"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:src="#AAA">
+
+        <TextView
+            android:id="@+id/book"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:text="@string/activity_insert_new_object_book"
+            android:textColor="@color/red_primary_dark" />
+
+        <EditText
+            android:id="@+id/add_book"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_insert_new_object_price"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_insert_new_object_book"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:text="@string/activity_insert_new_object_price"
+            android:textColor="@color/red_primary_dark" />
+
+        <EditText
+            android:id="@+id/add_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_save_book"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_insert_new_person_block_price"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_background"
+        android:text="@string/activity_save_book" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_array">
+        <item>Database for person</item>
+        <item>Filter person by age</item>
+        <item>Filter person by name</item>
+        <item>Database for Book</item>
+        <item>Search the book list per person</item>
+        <item>Filter book by price</item>
+        <item>Filter book by name</item>
+
+
+    </string-array>
+
+</resources>

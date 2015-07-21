@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Application name-->
+    <string name="app_name">RealmPOC</string>
+
+    <!--title Drawer open (DraxerActivity.java)-->
+    <string name="title_activity_relation">RealmPOC</string>
+
+    <!--title InsertNewPersonActivity.java-->
+    <string name="title_activity_insert">Insert new person in database</string>
+
+
+    <!--title SelectedBookForPersonActivity.java-->
+    <string name="title_activit_select_book">select book for person in database</string>
+
+    <!--title AddBookToPersonActivity.java -->
+    <string name="title_activity_add_book">Add book to one person</string>
+
+    <!--DrawerActivity-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_activity_mainactivity">Realm fragment</string>
+    <string name="drawer_activity_relationactivity">Relation fragment</string>
+    <string name="drawer_activity_get_book_by_selected_person">Get book by person</string>
+    <string name="drawer_activity_get_filter_book_by_person">Filter book by price or title</string>
+    <string name="drawer_activity_get_filter_price_book">Filter book by price</string>
+    <string name="drawer_activity_get_filter_name_book">Filter book by name</string>
+
+    <!--fragment_age_query.layout-->
+    <string name="drawer_activity_search_by_age">Filter by age</string>
+
+    <!--fragment_name_query.layout-->
+    <string name="drawer_activity_search_by_name">Filter by name</string>
+
+
+    <!--activity_insert_new_person.layout-->
+    <string name="activity_insert_new_person_age">Age:</string>
+    <string name="activity_insert_new_person_name">Name:</string>
+    <string name="activity_insert_new_person_button">Envoyer</string>
+
+
+    <!--activity_insert_new_object.layout-->
+    <string name="activity_insert_new_object_book">Book:</string>
+    <string name="activity_insert_new_object_price">Price:</string>
+    <string name="activity_insert_new_object_button">Validate</string>
+
+    <!--activity_add_book_to_person.layout-->
+    <string name="activity_save_book">Save</string>
+</resources>
