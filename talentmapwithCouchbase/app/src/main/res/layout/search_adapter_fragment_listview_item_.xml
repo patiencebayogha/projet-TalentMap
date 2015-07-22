@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Layout for SearchFragment.java post up List of users (name, surname and picture)-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.patiencebayogha.talentmapwithCouchbase.utils.CircleImageView
+        android:id="@+id/search_list_item_image"
+        android:layout_width="80dp"
+        android:elevation="8dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <com.example.patiencebayogha.talentmapwithCouchbase.CapitalizedTextView
+            android:id="@+id/search_list_item_surname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:paddingRight="8dp"
+            android:text="inputType:textCapWords"
+            android:textColor="@color/primaryText"
+            android:textSize="@dimen/name" />
+
+
+        <com.example.patiencebayogha.talentmapwithCouchbase.CapitalizedTextView
+            android:id="@+id/search_list_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:paddingRight="8dp"
+            android:textAllCaps="true"
+            android:textColor="@color/primaryText"
+            android:textSize="@dimen/name" />
+
+    </LinearLayout>
+</LinearLayout>
