@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3\5b0002c5fb66867ca919be0fbd86de1cfaf76da7\httpmime-4.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\httpmime-4.3-ee188101fdd4a6390d52e7871e6b35b1928cd287.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\classes-c63ac3486e92efad28c9b9e6ae0d7151ada1eb7e.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-0f1baf4af17e2db8fa4d1dff18d47594874105a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ad89e47ba2d66aae51ce3255cbfa410d33731f87.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.5.4\a57a2df1a23ca1ee32f129173ba7f5feaa9ac24\jackson-core-2.5.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a57a2df1a23ca1ee32f129173ba7f5feaa9ac24">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jackson-core-2.5.4-f43fbf251d1508c78423a25176c169438b50ffd7.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\library-2.4.0-3999a454005d6e85efded358e62b43b88b4a1933.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\jacoco\jacocoagent.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e084e6b8a000c2a3fd71fa1c6f603f47f90ea7c4">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jacocoagent-651ca74ffac9b737aa3c0a6ecc26b74eb02bc0ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.5.4\7a93b60f5d2d43024f34e15893552ee6defdb971\jackson-annotations-2.5.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7a93b60f5d2d43024f34e15893552ee6defdb971">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jackson-annotations-2.5.4-d116556f0fd70373a89d1804b17e0900fcea0eb7.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.5.4\5dfa42af84584b4a862ea488da84bbbebbb06c35\jackson-databind-2.5.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5dfa42af84584b4a862ea488da84bbbebbb06c35">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\jackson-databind-2.5.4-50534e61b08fa3b1e75e4edd0f8a115535c6c5b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-35f1210db528f54c17817c73afa3d0ec156e4434.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\httpclient-android-4.3.5.1-4845a326e1bddc93835b9eafe5d5bbe37f7b15b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\PBA3360\Documents\Stage2015\TalentMapLite\Android\talentmap\build\intermediates\pre-dexed\debug\classes-bd78364626dfac77d0d36f368e12bc091cd574e1.jar" />
+    </item>
+
+</items>

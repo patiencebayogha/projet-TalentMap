@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.patiencebayogha.talentmaplitewithvolley.CapitalizedTextView
+        android:id="@+id/autocompletion"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+
+        android:textColor="@color/primaryText" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_primary" />
+
+</RelativeLayout><!-- From: file:/C:/Users/PBA3360/Documents/Stage2015/TalentMapLiteVolley/TalentMapLiteWithVolley/app/src/main/res/layout/spinner_skill_adapter_get_skill.xml -->
