@@ -1423,11 +1423,11 @@ containing a value of this type.
         public static final int activity_skills_expertises_block=0x7f090080;
         public static final int activity_skills_image_button_add=0x7f090088;
         public static final int activity_skills_image_button_plus=0x7f090090;
-        public static final int add_filter=0x7f090095;
+        public static final int add_filter=0x7f090098;
         public static final int always=0x7f090017;
-        public static final int autocompletion=0x7f0900a0;
+        public static final int autocompletion=0x7f0900a1;
         public static final int beginning=0x7f090014;
-        public static final int categories=0x7f090098;
+        public static final int categories=0x7f090099;
         public static final int category=0x7f090089;
         public static final int checkbox=0x7f09002a;
         public static final int choix_categorie=0x7f090065;
@@ -1437,7 +1437,7 @@ containing a value of this type.
         public static final int content_frame=0x7f09004d;
         public static final int decor_content_parent=0x7f090030;
         public static final int default_activity_button=0x7f090025;
-        public static final int delete=0x7f09009b;
+        public static final int delete=0x7f09009c;
         public static final int delete_filter=0x7f090094;
         public static final int dialog=0x7f09001c;
         public static final int disableHome=0x7f09000d;
@@ -1462,6 +1462,7 @@ containing a value of this type.
         public static final int image_users=0x7f09008c;
         public static final int lastName_users=0x7f09008d;
         public static final int left_drawer=0x7f09004e;
+        public static final int linearLayout=0x7f090095;
         public static final int listMode=0x7f09000a;
         public static final int listUser=0x7f090097;
         public static final int list_item=0x7f090026;
@@ -1486,9 +1487,9 @@ containing a value of this type.
         public static final int search_close_btn=0x7f09003c;
         public static final int search_edit_frame=0x7f090038;
         public static final int search_go_btn=0x7f09003e;
-        public static final int search_list_item_image=0x7f09009c;
-        public static final int search_list_item_name=0x7f09009e;
-        public static final int search_list_item_surname=0x7f09009d;
+        public static final int search_list_item_image=0x7f09009d;
+        public static final int search_list_item_name=0x7f09009f;
+        public static final int search_list_item_surname=0x7f09009e;
         public static final int search_mag_icon=0x7f090039;
         public static final int search_plate=0x7f09003a;
         public static final int search_src_text=0x7f09003b;
@@ -1497,8 +1498,8 @@ containing a value of this type.
         public static final int showCustom=0x7f090010;
         public static final int showHome=0x7f090011;
         public static final int showTitle=0x7f090012;
-        public static final int skill=0x7f090099;
-        public static final int skill_level=0x7f09009a;
+        public static final int skill=0x7f09009a;
+        public static final int skill_level=0x7f09009b;
         public static final int spinner=0x7f09007f;
         public static final int spinner_filter=0x7f090066;
         public static final int split_action_bar=0x7f090008;
@@ -1513,7 +1514,7 @@ containing a value of this type.
         public static final int star_unchecked9=0x7f090079;
         public static final int submit_area=0x7f09003d;
         public static final int surname=0x7f09005b;
-        public static final int surname_users=0x7f09009f;
+        public static final int surname_users=0x7f0900a0;
         public static final int swipedelete=0x7f09008f;
         public static final int tabMode=0x7f09000c;
         public static final int tablerow_bases=0x7f09006c;
@@ -1522,7 +1523,7 @@ containing a value of this type.
         public static final int tablerow_master=0x7f09006e;
         public static final int tablerow_notion=0x7f09006a;
         public static final int title=0x7f090028;
-        public static final int toolbar=0x7f0900a1;
+        public static final int toolbar=0x7f0900a2;
         public static final int up=0x7f090009;
         public static final int useLogo=0x7f090013;
         public static final int visibility_result=0x7f090092;
